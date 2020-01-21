@@ -48,9 +48,6 @@ class App extends React.Component {
           <Grid justify="center" container spacing={10}>
             <Grid item xs={12}>
               <Grid container spacing={10}>
-                <Grid item xs={12}>
-                  {/* <SearchBar onFormSubmit={this.handleSubmit} /> */}
-                </Grid>
                 <Grid  item xs={8} style={{paddingTop: '0px'}}>
                   <VideoDetail video={this.state.selectedVideo} />
                 </Grid>
