@@ -19,7 +19,7 @@ class App extends React.Component {
       params: {
         part: 'snippet',
         maxResults: 5,
-        key: 'AIzaSyBVKoNTCpGbRDtF9Qzy2fLcAiT7adrUm2I',
+        key: '[API-KEY]',
         q: 'iftikhar khan'
       }
     });
