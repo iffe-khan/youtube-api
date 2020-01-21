@@ -15,21 +15,7 @@ class App extends React.Component {
   }
 
   componentDidMount = async () => {
-    const response = await youtube.get('search', {
-      params: {
-        part: 'snippet',
-        maxResults: 5,
-        key: '[API-KEY]',
-        q: 'iftikhar khan'
-      }
-    });
-
-    console.log(response.data.items);
-
-    this.setState({
-      videos: response.data.items,
-      selectedVideo: response.data.items[0]
-    })
+    this.handleSubmit('srk');
   }
 
   handleSubmit = async (searchTerm) => {
